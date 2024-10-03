@@ -1,0 +1,4 @@
+CREATE USER IF NOT EXISTS 'ivan'@'localhost' IDENTIFIED BY 'DNuggets99!';
+CREATE DATABASE IF NOT EXISTS swiftbank;
+GRANT ALL PRIVILEGES ON swiftbank.* TO 'ivan'@'localhost';
+FLUSH PRIVILEGES;
